@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StatCardView">
+        <attr name="statLabel" format="string" />
+        <attr name="statValue" format="string" />
+        <attr name="statAccent" format="color" />
+    </declare-styleable>
+    <declare-styleable name="LaneButtonView">
+        <attr name="laneLabel" format="string" />
+        <attr name="laneIndex" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MagmaCoinLeap" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/magma_500</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorPrimaryContainer">@color/magma_700</item>
+        <item name="colorOnPrimaryContainer">@color/text_primary</item>
+        <item name="colorSecondary">@color/ember_500</item>
+        <item name="colorOnSecondary">@color/basalt_900</item>
+        <item name="colorSecondaryContainer">@color/basalt_600</item>
+        <item name="colorOnSecondaryContainer">@color/ember_300</item>
+        <item name="colorTertiary">@color/magma_300</item>
+        <item name="colorOnTertiary">@color/basalt_900</item>
+        <item name="colorSurface">@color/basalt_700</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/basalt_600</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorSurfaceContainer">@color/basalt_700</item>
+        <item name="colorSurfaceContainerHigh">@color/basalt_600</item>
+        <item name="colorSurfaceContainerLow">@color/basalt_800</item>
+        <item name="colorOutline">@color/gold_stroke</item>
+        <item name="colorOutlineVariant">@color/basalt_600</item>
+        <item name="colorError">@color/danger_500</item>
+        <item name="colorOnError">@color/text_primary</item>
+        <item name="android:colorBackground">@color/basalt_900</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:windowBackground">@color/basalt_900</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <style name="Theme.MagmaCoinLeap.Dialog" parent="Theme.Material3.Dark.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">92%</item>
+        <item name="android:windowMinWidthMinor">92%</item>
+        <item name="colorPrimary">@color/magma_500</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorSecondary">@color/ember_500</item>
+        <item name="colorSurface">@color/basalt_700</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOutline">@color/gold_stroke</item>
+    </style>
+</resources>

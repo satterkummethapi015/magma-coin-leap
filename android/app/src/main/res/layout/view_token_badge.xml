@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/badge_coin"
+        android:layout_width="@dimen/sprite_coin_badge"
+        android:layout_height="@dimen/sprite_coin_badge"
+        android:contentDescription="@string/cd_coin"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sprite_coin" />
+
+    <TextView
+        android:id="@+id/badge_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:textColor="@color/ember_500"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</merge>

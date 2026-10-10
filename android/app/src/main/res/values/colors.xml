@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="basalt_900">#160F0C</color>
+    <color name="basalt_800">#1F1511</color>
+    <color name="basalt_700">#2A1C15</color>
+    <color name="basalt_600">#3A2518</color>
+    <color name="magma_500">#F04B1A</color>
+    <color name="magma_700">#B3330E</color>
+    <color name="magma_300">#FF7A3C</color>
+    <color name="ember_500">#FFCA3A</color>
+    <color name="ember_300">#F5D77A</color>
+    <color name="gold_stroke">#8A6A2E</color>
+    <color name="text_primary">#FFF0D0</color>
+    <color name="text_secondary">#C7B193</color>
+    <color name="text_muted">#5C6973</color>
+    <color name="danger_500">#E23E1E</color>
+    <color name="surface_card">#E62A1C15</color>
+    <color name="surface_badge">#CC1F1511</color>
+    <color name="surface_outline_button">#CC2A1C15</color>
+    <color name="ripple_ember">#66FFCA3A</color>
+    <color name="ripple_magma">#66F04B1A</color>
+    <color name="brand_primary">#F04B1A</color>
+    <color name="brand_on_primary">#FFF0D0</color>
+    <color name="brand_secondary">#FFCA3A</color>
+    <color name="brand_on_secondary">#160F0C</color>
+    <color name="brand_background">#160F0C</color>
+    <color name="brand_surface">#2A1C15</color>
+    <color name="brand_on_surface">#FFF0D0</color>
+</resources>

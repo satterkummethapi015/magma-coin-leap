@@ -1,0 +1,59 @@
+{
+  "assets": [
+    {
+      "name": "icon_1024",
+      "type": "icon",
+      "prompt": "App icon, one single glossy 3D gold coin with a molten orange rim glow, centered, dark basalt radial gradient background, crisp, no text"
+    },
+    {
+      "name": "bg_splash",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game loader BG, dark volcanic basalt crater at night, deep orange glow rising from the centre, cinematic, no text, no UI elements"
+    },
+    {
+      "name": "bg_menu",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game menu BG, dramatic volcano summit with glowing lava rivers and floating embers, dark basalt rock, vibrant orange and gold, 3D render, no text, no UI elements"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game BG, soft blurred volcanic chimney wall of dark basalt with faint orange lava seams, low contrast for UI overlay, no text, no UI elements"
+    },
+    {
+      "name": "bg_result",
+      "type": "bg",
+      "prompt": "Vertical 9:16 mobile game BG, volcano summit ridge at dusk under an ash sky, warm gold rim light on dark basalt, low contrast for UI overlay, no text, no UI elements"
+    },
+    {
+      "name": "sprite_explorer",
+      "type": "sprite",
+      "prompt": "One single cute cartoon volcano explorer in an orange climbing suit and goggles, mid leap pose, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_rock",
+      "type": "sprite",
+      "prompt": "One single cartoon dark basalt platform rock slab with a flat top and glowing orange cracks, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_coin",
+      "type": "sprite",
+      "prompt": "One single shiny gold coin with a flame emblem facing the viewer, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_vent",
+      "type": "sprite",
+      "prompt": "One single cartoon lava vent erupting a short orange flame jet from a dark rock opening, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_gear_boots",
+      "type": "sprite",
+      "prompt": "One single pair of rugged orange climbing boots, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    },
+    {
+      "name": "sprite_summit_flag",
+      "type": "sprite",
+      "prompt": "One single gold summit flag on a short pole planted in a small dark rock, centered icon, glossy 3D render, isolated on plain white, no other objects"
+    }
+  ]
+}

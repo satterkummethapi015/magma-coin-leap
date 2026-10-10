@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Magma Coin Leap</string>
+
+    <string name="splash_title">MAGMA COIN LEAP</string>
+    <string name="splash_subtitle">CLIMB THE CRATER</string>
+    <string name="splash_progress_caption">WARMING THE VENTS</string>
+    <string name="splash_footer">OFFLINE EXPEDITION · NO REAL MONEY</string>
+
+    <string name="menu_title">MAGMA COIN LEAP</string>
+    <string name="menu_tagline">LEAP THE VENTS · BANK THE EMBERS</string>
+    <string name="menu_hint">TAP A LANE TO LEAP</string>
+    <string name="menu_fresh_hint">NEW EXPEDITION</string>
+    <string name="menu_footer">OFFLINE · NO REAL MONEY</string>
+    <string name="cta_play">PLAY</string>
+    <string name="cta_gear_locker">GEAR LOCKER</string>
+    <string name="cta_settings">SETTINGS</string>
+    <string name="menu_best_prefix">BEST</string>
+
+    <string name="stat_best_altitude">BEST ALTITUDE</string>
+    <string name="stat_runs">RUNS</string>
+    <string name="stat_leaps">LEAPS</string>
+    <string name="stat_tokens">TOKENS</string>
+    <string name="stat_best">BEST</string>
+
+    <string name="game_altitude_label">ALTITUDE</string>
+    <string name="game_hint">TAP A LANE TO LEAP</string>
+    <string name="lane_left">LEFT</string>
+    <string name="lane_mid">MID</string>
+    <string name="lane_right">RIGHT</string>
+    <string name="lane_state_ready">READY</string>
+    <string name="lane_state_locked">LOCKED</string>
+
+    <string name="result_summit">SUMMIT REACHED</string>
+    <string name="result_ended">RUN ENDED</string>
+    <string name="result_unit">M</string>
+    <string name="result_new_best">NEW BEST ALTITUDE</string>
+    <string name="result_hint">SPEND EMBERS IN THE GEAR LOCKER</string>
+    <string name="cta_leap_again">LEAP AGAIN</string>
+    <string name="cta_menu">MENU</string>
+
+    <string name="gear_title">GEAR LOCKER</string>
+    <string name="gear_owned">✓ OWNED</string>
+    <string name="gear_error">GEAR DATA UNAVAILABLE</string>
+    <string name="gear_disclaimer">EMBER TOKENS ARE FICTIONAL · NO REAL MONEY</string>
+    <string name="cta_retry">RETRY</string>
+    <string name="cta_close">CLOSE</string>
+
+    <string name="settings_title">SETTINGS</string>
+    <string name="settings_haptic">HAPTIC FEEDBACK</string>
+    <string name="settings_haptic_caption">Vibrate on a failed leap</string>
+    <string name="settings_vent_pulse">VENT PULSE</string>
+    <string name="settings_vent_pulse_caption">Animate lava vents</string>
+    <string name="settings_contrast">HIGH CONTRAST LANES</string>
+    <string name="settings_contrast_caption">Stronger lane outlines</string>
+    <string name="settings_reset">RESET PROGRESS</string>
+    <string name="settings_reset_confirm">TAP AGAIN TO CONFIRM</string>
+    <string name="settings_footer">MAGMA COIN LEAP · OFFLINE · NO REAL MONEY</string>
+    <string name="state_on">ON</string>
+    <string name="state_off">OFF</string>
+
+    <string name="gear_boots_name">Basalt Boots</string>
+    <string name="gear_boots_effect">Softens the first failed leap once per run</string>
+    <string name="gear_goggles_name">Ash Goggles</string>
+    <string name="gear_goggles_effect">Vents telegraph 300ms earlier</string>
+    <string name="gear_pouch_name">Ember Pouch</string>
+    <string name="gear_pouch_effect">Coin cells pay one extra token</string>
+    <string name="gear_harness_name">Obsidian Harness</string>
+    <string name="gear_harness_effect">Drift rows stop appearing below 10 M</string>
+    <string name="gear_cloak_name">Thermal Cloak</string>
+    <string name="gear_cloak_effect">Heat fuse drains 20 percent slower</string>
+    <string name="gear_beacon_name">Summit Beacon</string>
+    <string name="gear_beacon_effect">Marks the richer branch lane in gold</string>
+
+    <string name="cd_explorer">Volcano explorer</string>
+    <string name="cd_coin">Ember token</string>
+    <string name="cd_flag">Summit flag</string>
+    <string name="cd_gear_item">Expedition gear</string>
+    <string name="cd_back">Back to the crater map</string>
+    <string name="cd_board">Crater board with three lanes</string>
+    <string name="cd_fuse">Heat fuse</string>
+
+    <string name="fmt_metres">%1$d M</string>
+    <string name="fmt_tokens_gain">+%1$d EMBER TOKENS</string>
+    <string name="fmt_count">%1$d</string>
+    <string name="fmt_best_metres">BEST %1$d M</string>
+    <string name="fmt_lane_state">%1$s, %2$s</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gear_dialog_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/gear_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_sheet"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/gear_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gear_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gear_title"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <com.magmacoin.leap.core.ui.TokenBadgeView
+                android:id="@+id/gear_token_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:accessibilityLiveRegion="polite" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/gear_disclaimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/gear_disclaimer"
+            android:textAppearance="@style/TextAppearance.App.Micro" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/gear_list"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_marginTop="14dp"
+            android:clipToPadding="false"
+            android:overScrollMode="never" />
+
+        <LinearLayout
+            android:id="@+id/gear_error"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/gear_error_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gear_error"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_gear_retry"
+                style="@style/Widget.App.Button.Secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_secondary_h"
+                android:layout_marginTop="14dp"
+                android:text="@string/cta_retry" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_gear_close"
+            style="@style/Widget.App.Button.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_secondary_h"
+            android:layout_marginTop="14dp"
+            android:text="@string/cta_close" />
+
+    </LinearLayout>
+
+</RelativeLayout>
